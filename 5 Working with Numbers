@@ -1,0 +1,24 @@
+#--->
+print(2)
+print(2.45)
+print(-2)
+#---> Basic Arthimethics (+ - % / *)
+print(3 * 4)       # 12
+print(3 * 4 + 5)   # 17
+print(3 * (4 + 5)) # 27 - Change order 3*9
+print(10 % 3)      # 1 - MOD is value output of reminder
+
+#---> Store numbers inside Variable
+select_number = -5
+print(select_number)
+#---> Convert number to String
+print(str(select_number) + " is my favourate")
+#---> common fn used related to numbers
+print(abs(select_number)) # 5
+print(pow(4,6))           # 4096  4^6
+print(max(4,6))           # 6
+print(min(4,6))           # 4
+print(round(3.2))         # 3
+print(round(3.6))         # 4
+
+#Library  ---- "from math import *" **** ceil/sqrt---- print(sqrt(36))
