@@ -1,0 +1,8 @@
+Num1 = input("Enter a value: ")
+Num2 = input("Enter different value: ")
+
+#result1 = Num1+Num2 # fails as it treats a character
+#result2 = int(Num1)+int(Num2) # fail if any decimal(2+6.2 =8)
+#print(result2)
+result3 = float(Num1)+float(Num2) # 5+7.2 = 12.2
+print(result3)
