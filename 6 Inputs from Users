@@ -1,0 +1,4 @@
+Name = input("Enter your name: ") # prompt after run
+City = input("Enter your city: ") # prompt after run
+print("Hello " + Name + "!")
+print("from " + City)
