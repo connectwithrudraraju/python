@@ -1,0 +1,10 @@
+#---> Variable is container which stores values( data types : words/numbers/boolean --- types of variables data)
+# When storing words(strings) use quotes
+Person_Name = "Sujith"
+# When storing number no need of quotes
+Person_Age = 5
+# Note : When using Boolean use TRUE/FALSE
+print("His Name is " + Person_Name)
+print("When " + Person_Name + " is " + Person_Age + " years old")
+# Only one + as its in last
+print("Dad used to like " + Person_Name)
