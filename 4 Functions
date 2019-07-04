@@ -1,0 +1,15 @@
+# Function is block of code to run to perform specific operation
+# Used to modify our string and to get information of our String
+
+#---> Lowercase/uppercase
+Statement = "Meraki World"
+print(Statement.lower()) # meraki world
+print(Statement.isupper()) # False
+print(Statement.upper().isupper()) # MERAKI WORLD -> TRUE
+
+#---> Length/index/Replace
+Statement = "Meraki World"
+print(len(Statement)) # 6+1+5 = 12
+print(Statement.index("e")) # M-0 "e-1" r-2 a-3 (first alphabet)
+print(Statement.index("orld")) #8 -- where it starts
+print(Statement.replace("Meraki", "CR7")) # CR7 World
