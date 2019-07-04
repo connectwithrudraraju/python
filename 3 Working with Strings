@@ -1,0 +1,12 @@
+print("Meraki World")
+# To have second word in new line
+print("Meraki\nWorld")
+# To include quotation included have \ before
+print("Meraki\"World")
+# To include backslash "\" use just that
+print("Meraki\World")
+# To have character pre-defined
+Statement = "Meraki World"
+print(Statement)
+# To use Concatenate with character
+print(Statement + " is my idea")
