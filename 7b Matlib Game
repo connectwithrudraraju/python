@@ -1,0 +1,2 @@
+color = input("Enter color : ")
+print("Roses are " + color )
