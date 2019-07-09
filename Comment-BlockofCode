@@ -1,0 +1,6 @@
+"""
+This is commented
+"""
+'''
+Even this is commented
+''' # End of the comment(next line executed)
