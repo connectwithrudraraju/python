@@ -1,0 +1,64 @@
+
+########## List Functions ------------------
+
+family = ["Raj", "Cherry", "Sujith"]
+Lucky_number = [ "7", "9", "1"]
+
+#"Extend function" is to append other list to the end of the exisitng list
+family.extend(Lucky_number)
+print(family) ### "Raj", "Cherry", "Sujith","7", "9", "1"
+
+#"Append function" is used to add new member to the list at the end
+family = ["Raj", "Cherry", "Sujith"]
+family.append("Rudraraju")
+print(family) ### "Raj", "Cherry", "Sujith","Rudraraju"
+
+#"Insert function" takes the index and name to include the member at the index place and other elements pushed to right
+family = ["Raj", "Cherry", "Sujith"]
+family.insert(2,"Rudraraju") #Raj(0) Cherry(1) Sujith(2)
+print(family) ### "Raj", "Cherry","Rudraraju","Sujith"
+
+#"Remove Function" removes the element from the list
+family = ["Raj", "Cherry", "Rudraraju", "Sujith"]
+family.remove("Rudraraju")
+print(family) ### "Raj", "Cherry","Sujith"
+
+#"Clear function" will remove all elements under the list
+family = ["Raj", "Cherry", "Rudraraju", "Sujith"]
+family.clear()
+print(family) ###---------------------
+
+#"Pop Function" will remove the last element of the list
+family = ["Raj", "Cherry", "Sujith", "Rudraraju"]
+family.pop()
+print(family) ### "Raj", "Cherry","Sujith"
+
+#To find if specific element exist in the list and see the index of it
+family = ["Raj", "Cherry", "Sujith", "Rudraraju"]
+print(family.index("Cherry")) ### 1
+print(family.index("Rajesh")) ### "Rajesh is not in the list"
+
+#"Count Function" will let you know how many time the element exists in the list
+family = ["Raj", "Cherry", "Sujith", "Cherry", "Rudraraju"]
+print(family.count("Cherry")) ### 2 times
+
+
+#"Sort/reverse Function" will sort the elements in the list with ascending/"REVERSE the list element" order
+family = ["Raj", "Cherry", "Sujith", "Rudraraju"]
+Lucky_number = [ "7", "9", "1"]
+family.sort()
+Lucky_number.sort()
+print(family) ### "Cherry", "Raj", "Rudraraju",  "Sujith"
+print(Lucky_number) ### "1", "7", "9"
+
+family = ["Raj", "Cherry", "Sujith", "Rudraraju"]
+Lucky_number = [ "7", "9", "1"]
+family.reverse()
+Lucky_number.reverse()
+print(family) ###  "Rudraraju",  "Sujith", "Cherry", "Raj"
+print(Lucky_number) ### "1", "9", "7"
+
+#"Copy Function" will seed from one to other list for creation
+family = ["Raj", "Cherry", "Sujith", "Rudraraju"]
+family2 = family.copy()
+print(family2)
