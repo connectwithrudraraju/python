@@ -1,0 +1,104 @@
+'''
+#--------------Print Hello World---------------
+print("Hello World")
+
+#---------------Draw a shape ------------------
+print("   /|")
+print("  / |")
+print(" /  |")
+print("/___|")
+
+#--------------Variables and Data types------------
+
+#---> Variable is container which stores values(words/numbers/boolean --- types of variables data)
+# When storing words(strings) use quotes
+Person_Name = "Sujith"
+# When storing number no need of quotes
+Person_Age = 5
+# Note : When using Boolean use TRUE/FALSE
+print("His Name is " + Person_Name)
+print("When " + Person_Name + " is " + Person_Age + " years old")
+# Only one + as its in last
+print("Dad used to like " + Person_Name)
+
+#--------------Working with STRINGS ----------------
+
+print("Meraki World")
+# To have second word in new line
+print("Meraki\nWorld")
+# To include quotation included have \ before
+print("Meraki\"World")
+# To include backslash "\" use just that
+print("Meraki\World")
+# To have character pre-defined
+Statement = "Meraki World"
+print(Statement)
+# To use Concatenate with character
+print(Statement + " is my idea")
+
+
+#-------------------Function-----------------------
+# Function is block of code to run to perform specific operation
+# Used to modify our string and to get information of our String
+
+#---> Lowercase/uppercase
+Statement = "Meraki World"
+print(Statement.lower()) # meraki world
+print(Statement.isupper()) # False
+print(Statement.upper().isupper()) # MERAKI WORLD -> TRUE
+
+#---> Length/index/Replace
+Statement = "Meraki World"
+print(len(Statement)) # 6+1+5 = 12
+print(Statement.index("e")) # M-0 "e-1" r-2 a-3 (first alphabet)
+print(Statement.index("orld")) #8 -- where it starts
+print(Statement.replace("Meraki", "CR7")) # CR7 World
+
+#--------------Working with Numbers ----------------
+#--->
+print(2)
+print(2.45)
+print(-2)
+#---> Basic Arthimethics (+ - % / *)
+print(3 * 4)       # 12
+print(3 * 4 + 5)   # 17
+print(3 * (4 + 5)) # 27 - Change order 3*9
+print(10 % 3)      # 1 - MOD is value output of reminder
+
+#---> Store numbers inside Variable
+select_number = -5
+print(select_number)
+#---> Convert number to String
+print(str(select_number) + " is my favourate")
+#---> common fn used related to numbers 
+print(abs(select_number)) # 5
+print(pow(4,6))           # 4096  4^6
+print(max(4,6))           # 6
+print(min(4,6))           # 4
+print(round(3.2))         # 3
+print(round(3.6))         # 4
+
+#Library  ---- "from math import *" **** ceil/sqrt---- print(sqrt(36))
+
+#------------------Getting Input from Users---------
+Name = input("Enter your name: ") # prompt after run
+City = input("Enter your city: ") # prompt after run
+print("Hello " + Name + "!")
+print("from " + City)
+
+
+#-----------------Basic Calculator---------------
+Num1 = input("Enter a value: ")
+Num2 = input("Enter different value: ")
+
+#result1 = Num1+Num2 # fails as it treats a character
+#result2 = int(Num1)+int(Num2) # fail if any decimal(2+6.2 =8)
+#print(result2)
+result3 = float(Num1)+float(Num2) # 5+7.2 = 12.2
+print(result3)
+
+#----------------MAD Libs Game ----------------
+
+color = input("Enter color : ")
+print("Roses are " + color )
+'''
