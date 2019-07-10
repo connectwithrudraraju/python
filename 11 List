@@ -1,0 +1,17 @@
+#------------- Lists---"[]"----------------------
+#------Bunch of data values we put inside a list(organize and keep track of them)  --------
+
+friends = ["Raj", "Cherry", "Sujith"]
+print (friends)
+
+#Each item inside list has index start from 0,1,2 (or from back -3,-2,-1(starts from -1 from end)
+# Call by calling index of the list
+print(friends[1])  # Raj(0) Cherry(1) Sujith(2)
+print(friends[-3]) # Raj(-3) Cherry(-2) Sujith(-1)
+
+# To call every item after X, say X:
+print(friends[1:])  # Raj(0) Cherry(1) Sujith(2) - 'Cherry','Sujith'
+
+# To modify the list members
+friends[1] = "Charishma"
+print(friends) # Raj, Charishma, Sujith
