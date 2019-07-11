@@ -1,0 +1,6 @@
+### function with parameter it ask for some input if it is called
+
+def family_name(person, family, age):
+  print("Hi " + person + family + "," + " Your age is " + str(age)) #str to ensure input is number
+family_name("Rajesh", " Rudraraju", "33")   
+family_name("Sujith", " Rudraraju", "1")   
