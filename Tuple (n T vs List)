@@ -1,0 +1,6 @@
+########################### Tuples()
+coordinate = (10, 25) 
+print(coordinate[1])
+
+##### List [] (modify) (changable) vvvvssss Tuple {} (cant modify) (not changable)
+
